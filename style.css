@@ -1,0 +1,1095 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding:0px;
+    margin:0px;    
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+button:hover, .btn:hover{
+    background-color: #12395D !important;
+    border:1px solid #687EFF;
+    color: white !important;
+}
+.navbar-toggler:hover{
+    background-color: #dce0f9 !important;
+    box-shadow: none;
+    outline:none;
+    border: 1px solid lightgray;
+}
+body{
+     background:#E0F7FF;
+     color: #12395D;
+}
+.head-search{
+    border: 1px solid #80B3FF;
+    width: 315px;
+    border-radius: 10px;
+    padding: 0px;
+}
+.head-search>input:focus{
+    box-shadow: none;
+}
+body input:focus{
+    box-shadow: none;
+}
+.head-search>input{
+    border-radius: 10px;
+}
+.head-search>.input-group-text{
+    border-radius: 10px;
+    background-color: white;
+}
+.head-login{
+    color:#12395D;
+    font-weight: 400;
+}
+.head-login-cart a{
+    font-size: 15px;
+    color: #12395D;
+}
+.head-login-cart h4{
+    font-family: Poppins;
+}
+.head-login>i{
+    height: 15px;
+    width: 12px;
+}
+.cart>span{
+    width:44px;
+}
+.cart>span>i{
+    width:22px;
+}
+.modal-body .image{
+    background-color: #C3E6F2;
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 15px;
+}
+nav{
+    background-color: #C3E6F2;
+}
+.nav a{
+    color:#12395D;
+    font-weight: 400;
+    size:16px;
+    font-family: poppins;
+}
+.hero-section ul>li{
+    list-style-type: none;
+    margin-left: -30px;
+    margin-top: 19px;
+    font-size: 1rem;
+    font-family: poppins;
+    font-weight: 600;
+    color: #12395D;
+}
+.hero-section ul>li>i{
+    color:#687EFF;
+}
+.hero-first{
+    margin-top: 99px;
+}
+.hero-first .input-group-text{
+    background-color: #687EFF;
+}
+.hero-first .search-treat>input{
+    box-shadow: none;
+}
+.hero-first>.input-group{
+    border: 1px solid #687EFF;
+    margin-top: 34px;
+    margin-bottom: 28px;
+}
+.hero-first>h1{
+    font-size: 55px;
+    font-weight: 700;
+    font-family: poppins;
+    color:#12395D;
+    margin-bottom: 19px;
+}
+
+.hero-first>p{
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 400;
+    color: #233D55CC;
+}
+.senior-img>img{
+    width:400.8px;
+    height: 300.2px;
+}
+
+.group-img img:nth-child(1){
+    width:290.8px !important;
+    height: 242.47px !important;
+}
+.group-img img:nth-child(2){
+    width: 260.3px !important;
+    height: 189.1px !important;
+}
+.hero-second p{
+   margin-top: 0px !important;
+}
+.hero-second p>strong{
+    color:#687EFF;
+    background: white;
+    padding:2px;
+    border-radius: 6px;
+}
+
+
+/* Treatment section */
+.treatment-section{
+    background: linear-gradient(to bottom,#C3E6F2 35%,#fff 45%);
+}
+
+.treatment-section h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #12395D;
+}
+.active{
+    background-color: #687EFF !important;
+    color: white !important;
+    transition: 1s ease-out;
+}
+.active h5{
+    color: white !important;
+}
+.active p{
+    color: white !important;
+}
+.treatments-category{
+    margin-top: 34px;
+}
+.treatments-category .btn{
+    color: #12395D;
+    font-weight: 600;
+    font-size: 12px;
+}
+.treatments h5{
+    font-size: 18px;
+    font-weight: 700;
+    color: #12395D;
+}
+.treatments p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #233D55;
+    opacity: 0.8;
+}
+.treatments{
+    padding: 18px 24px !important;
+}
+.all-treat{
+    background-color: #687EFF;
+    border: none;
+    border-radius: 6px;
+    transition: 1s ease-in;
+}
+.active:hover{
+    background-color: #12395D !important;
+}
+.all-treat:hover{
+    background-color: #12395D;
+}
+.all-treat a{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
+.cards-section h3{
+    font-size: 40px;
+    font-weight: 600;
+    color: #12395D;
+}
+input:focus{
+    outline: none;
+    box-shadow: none;
+    text-shadow: none;
+    border: none;
+}
+@media  screen and (max-width:410px) {
+    .cards-section h3{
+        font-size: 28.5px;
+    }
+    .modal-footer{
+        display: flex;
+        flex-direction: column;
+        width: 100% !important;
+    }
+    
+}
+.cards-section .card h6{
+    font-size: 18px;
+    font-weight: 600;
+    color: #12395D;
+}
+.cards-section .card>a>p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #233D55;
+    opacity: 0.8;
+    width: 89%;
+    margin: 0px auto;
+}
+
+.cards-section .card span{
+  position: relative;
+  bottom: 20px;
+  width:37.14px;
+  background-color: #687EFF;
+}
+
+.card-img img{
+    width:85% !important;
+}
+
+.patient-review-section h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #12395D;
+}
+.patient-review-section p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #233D55;
+    opacity: 0.8;
+}
+.patient-review-section .col h6{
+    font-size: 18px;
+    font-weight: 600;
+    color: #12395D;
+}
+.patient-review-section .col p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #233D55;
+    opacity: 0.8;
+}
+.patient-review-section .patient-name{
+    font-size: 16px;
+    font-weight: 600;
+    color: #12395D;
+}
+.trustpilot p{
+    font-size: 22px;
+    color: black;
+    font-family: Roboto;
+    font-weight: 400;
+}
+.trustpilot p span{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.medication-section{
+    background:white;
+}
+
+.medication h3{
+    font-size: 40px !important;
+    font-weight: 600;
+    color: #12395D;
+    line-height: 52px;
+    font-family: Poppins;
+}
+.medication p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #233D55;
+    opacity: 0.8;
+    line-height: 33px;
+    margin-top: 18px;
+}
+.medication button{
+    background-color: #687EFF;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding:12px 28px !important;
+}
+.team h3{
+    font-size: 40px;
+    font-weight: 600;
+    color: #12395D;
+    margin-bottom: 9px;
+}
+.team p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #233D55;
+    opacity: 0.8;
+    width: 50%;
+    margin: 0px auto;
+}
+.doctors h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: #12395D;
+}
+.doctors p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#233D55;
+    opacity:0.8;
+}
+/* certificate section */
+
+.certifcate-section{
+    background: #CFEBF5;
+}
+.security .list-unstyled i{
+    color: #687EFF;
+    border-radius: 50%;
+    padding: 5px;
+}
+.security h3{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 40px;
+    color:#12395D;
+}
+.security li{
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    color: #233D55;
+    margin-top: 10px;
+}
+.certificate h5{
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    color: #12395D;
+}
+.certificate .medexpress img{
+ width:19%;
+}
+.certificate p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    color: #233D55;
+    opacity: 0.8;
+}
+.certificate button{
+    padding:11px 32px !important;
+    background-color: #687EFF;
+}
+.faqs-section .faq a{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 30px;
+    color: #12395D;
+}
+.companies-section h2{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #12395D;
+}
+.companies-section p{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #233D55;
+    opacity: 0.8;
+}
+
+.footer-top{
+    background: #C3E6F2;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.footer-top a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Poppins;
+    color:#233D55;
+    opacity: 0.8;
+}
+.footer-top .row p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #233D55;
+    opacity: 0.8;
+}
+.copyright>p{
+    font-size: 14px !important;
+    font-weight: 400;
+}
+
+/* Question form */
+.head-paragraph .top-heading{
+    font-size: 28px;
+    font-weight: 600;
+    
+}
+.head-paragraph .Reorder-para{
+    background-color: #C3E6F2;
+}
+.Reorder-para>button{
+    background-color:#687EFF;
+}
+.Reorder-para>button a{
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+.Question-section{
+    background: linear-gradient(to bottom,#E0F7FF 45%,#fff 45%);
+}
+.question-form h4{
+    font-size: 14px;
+    color: #12395D;
+    font-weight: 600;
+    background: #C3E6F2;
+    padding:8px 0px 6px 15px;
+    border-radius: 4px;
+}
+.question-form p{
+    font-size: 15.5;
+    color: #233D55;
+    opacity: 0.8;
+    font-weight: 400;
+}
+.question-form li{
+    color:#233D55;
+    opacity: 0.7;
+}
+.question-form>.terms-condition>label{
+    font-size: 16.8;
+    font-weight: 600;
+    color: #12395D;
+}
+.question-form .terms-condition input[type="checkbox"]{
+    width:24px;
+    height: 24px;
+    accent-color: rgb(76, 76, 223);
+}
+.question-form .btn{
+    background-color: #687EFF;
+}
+.question-form {
+    box-shadow:0px 3px 0px rgb(246, 241, 241);
+}
+.consultation-side{
+    background-color: #12395D;
+}
+.consultation-side>.head{
+    background-color: #687EFF;
+}
+.consultation-side h5{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.consultation-side .head .clock {
+  width: 47px;                
+  height: 46px;               
+  background: #fff;
+  border-radius: 50%;
+}
+
+.consultation-side .head .clock i {
+  font-size: 33px;            
+  width: auto;                
+  height: auto;
+  color: #12395D;      
+}
+
+.pharmacist-details p{
+    font-size: 11px;
+    font-family: Poppins;
+    line-height: 19px;
+}
+.pharmacist-details>p{
+    color:#fff;
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 19px;
+    opacity:90%;
+}
+.pharmacist-details .about>img{
+    width: 60px;
+}
+.security-explanation li , .help-section li{
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 16px;
+    opacity: 0.9;
+}
+.help-section li>span{
+    color:#687EFF;
+}
+.security-explanation .security-points>li>span{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.security-points li span i{
+    font-size: 18px;
+}
+.item-details .image{
+    background-color: #C3E6F2E5;
+    opacity: 0.9;
+    border-radius: 8px;
+    width: 186px;
+    height: 110px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.cart-section{
+    background:linear-gradient(to bottom, #E0F7FF 45%, #fff 40%);
+}
+.cart-details{
+    background-color: #CDEAF4;
+}
+.item-details{
+    width: 60%;
+}
+.item-details>h5{
+    font-size: 26px;
+    font-weight: 600;
+}
+.item-details>p{
+    font-size: 16px;
+    color: #233D55;
+    opacity: 0.8;
+    line-height: 33px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.item-details p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #12395D;  
+}
+.item-details .dropdown,.dropdown-menu{
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.8;
+    width: 252px;
+}
+
+.dropdown{
+    border: 1px solid #C7E8F3;
+    border-radius: 8px;
+    padding: 10px 17px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-details .card-head {
+    font-size: 20px;
+    color: #12395D;
+    font-weight: 600;
+}
+.cart-details p{
+    font-size: 15px;
+    font-weight: 600;
+    text-align: start;
+}
+.cart-details span{
+    font-size: 18px;
+    font-weight: 600;
+    color: #687EFF;
+}
+.cart-details .btn{
+    font-size: 17px;
+    background-color: #687EFF;
+    padding-top: 12px;
+}
+/* Delivery */
+.order-section{
+    background: linear-gradient(to bottom , #E0F7FF 30%, #fff 30%);
+}
+.order-status p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.order-status span{
+    background-color: #C3E6F2;
+    font-size: 22px;
+    font-weight: 600;
+    color:#080D26;
+}
+.order-status .status-line{
+    height:3px;
+    background-color: #687EFF;
+    width:160px;
+}
+.delivery-section .container{
+    z-index: 1;
+}
+.delivery-head h4 ,.form-head>h4{
+    font-size: 26px;
+    font-weight: 600;
+}
+.delivery-head p, .form-head>p{
+    font-size: 18px;
+    color: #233D55CC;
+    font-weight: 400;
+    opacity: 0.8;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card span:nth-child(1){
+    background-color: #E0F7FF;
+    padding: 10px;
+    border-radius: 50%;
+}
+.card{
+    padding:27px 22px;
+}
+.active-delivery-card{
+    background-color: #C9E8F3;
+}
+.card:hover{
+    border: 1.5px solid #687EFF !important;
+}
+.card .btn{
+    background-color: #687EFF;
+}
+.active-delivery-card button{
+    background-color: #12395D;
+}
+
+.card h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: #12395D;
+}
+.card h6{
+    font-size: 15px;
+    font-weight: 600;
+}
+input[type="radio"]{
+    accent-color: blue;
+}
+.card p{
+    font-size: 14.5px;
+    font-weight: 400;
+    color: #233D55;
+    opacity: 0.8;
+}
+.card .delivery-price{
+    font-size: 19px;
+    font-weight: 600;
+    color: #687EFF;
+}
+/* form */
+.form-select option{
+    width:100%;
+}
+
+.internation-delivery>h4{
+    font-size: 26px;
+    font-weight: 600;
+    color:#12395D;
+}
+.royal-mail-international>label h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: #12395D;
+}
+.royal-mail-international>label h6{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.royal-mail-international>label p{
+    font-size: 14.5px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+.royal-mail>span{
+    font-size: 22px;
+    font-weight: 600;
+    color: #687EFF;
+}
+.payment-btn .btn{
+    font-size: 17px;
+    font-weight: 600;
+    padding: 12px 30px;
+    background-color:#687EFF;
+}
+.payment-btn>span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #233D55;
+    opacity: 0.8;
+}
+
+.delivery-details-section h4{
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 29px;
+}
+.delivery-details-section p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #233D55;
+    opacity: 0.8;
+    line-height: 16px;
+}
+.delivery-details-section span{
+    padding: 16px;
+    background: #E0F7FF;
+}
+.GP-details h4{
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.GP-details p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #233D55;
+    opacity: 0.8;
+}
+.GP-details label{
+    font-size: 15px;
+    font-weight: 400;
+    color: #233D55;
+    opacity: 0.8;
+    line-height: 178%;
+}
+.GP-details>.row a{
+    font-size: 18px;
+    color: #687EFF;
+    font-weight: 600;
+}
+.GP-details>.row span{
+    font-size: 18px;
+    color: #687EFF;
+    font-weight: 600;
+}
+.payment-options h5{
+    font-size: 17px;
+    font-weight: 600;
+    color: #12395D;
+}
+.payment-options button{
+    font-size: 17px;
+    font-weight: 600;
+    padding: 12px 50px;
+    width: 252px;
+}
+.payment-options>.btn-warning:hover{
+    background-color: #ffb300 !important;
+}
+.payment-options p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #233D55;
+    opacity: 0.8;
+}
+.payment-options span{
+    color: #687EFF;
+}
+
+@media screen and (max-width:540px) {
+    .head-search>input::placeholder{
+        font-size: 12px;
+    }
+    .hero-second{
+        display: flex;
+        align-items: start;
+        justify-content: start;
+    }
+    .senior-img{
+        margin: 0px !important;
+    }
+    .senior-img>img{
+        margin: 0px !important;
+        width:329.8px !important;
+        height: 209.2px !important;
+    }
+    .group-img img:nth-child(1) {
+        width: 200.8px !important;
+        height: 160.47px !important;
+    }
+    
+    .group-img img:nth-child(2) {
+        width: 190.3px !important;
+        height: 120.1px !important;
+     }
+    .hero-first>h1{
+        font-size: 30px !important;
+    }
+    .hero-second p{
+        width: 90%;
+        margin:0px 35px;
+    }
+    .hero-first{
+        margin-top: 30px !important;
+    }
+    .medication h3{
+        font-size: 28px !important;
+        line-height: 40px;
+    }
+    .medication p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .medication button{
+        font-size: 14px;
+        padding:8px 15px !important;
+    }
+    .team p{
+        width: 100% !important;
+        font-size: 16px;
+    }
+    .team h3{
+        font-size: 28px;
+    }
+    .companies-section h2{
+        font-size: 28px;
+        line-height: normal;
+    }
+    .companies-section p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .Reorder-para{
+        width:95% !important;
+    }
+    .Reorder-para>button a{
+        font-size: 10px !important;
+    }
+    .Reorder-para>button{
+        padding:0px !important;
+    }
+    .terms-condition{
+        padding: 0px !important;
+    }
+    aside.consultation-side{
+        width:75% !important;
+    }
+    .cart-details{
+        width: 90% !important;
+    }
+    .card h5{
+        font-size: 16px;
+    }
+    .card h6{
+        font-size: 12px;
+    }
+    .card p{
+        font-size: 12.5px;
+    }
+    .card .delivery-price{
+        font-size: 13px;
+    }
+    .card button{
+        padding:3px 6px;
+    }
+    .card button>a{
+        font-size: 12px;
+    }
+    .delivery-head h4{
+        font-size: 18px;
+    }
+    .delivery-head p{
+        font-size: 14px;
+    }
+    .internation-delivery>h4{
+        font-size: 22px;
+       
+    }
+    .royal-mail-international>label h5{
+        font-size: 15px;
+        
+    }
+    .royal-mail-international>label h6{
+        font-size: 12px;
+        
+    }
+    .royal-mail-international>label p{
+        font-size: 12px;
+    }
+    .delivery-head h4 ,.form-head>h4{
+        font-size: 20px;
+    }
+    .delivery-head p, .form-head>p{
+        font-size: 15px;
+    }
+    .form-label{
+        font-size: 14px;
+    }
+    .delivery-form input::placeholder{
+        font-size: 13px;
+    }
+    .cart-details button{
+        font-size: 14px;
+        padding-top: 12px;
+        padding: 5px 7px;
+    }
+    .order-status p{
+        font-size: 11px !important;
+    }
+    .order-status span{
+        font-size: 14px !important;
+    }
+    .delivery-details-section h4{
+        font-size: 22px;
+    }
+    .delivery-details-section p{
+        font-size: 15px;
+    }
+    .GP-details h4{
+        font-size: 20px;
+    }
+    .GP-details p{
+        font-size: 16px;
+    }
+    .GP-details label{
+        font-size: 14px;
+    }
+    .GP-details>.row a{
+        font-size: 16px;
+    }
+    .GP-details>.row span{
+        font-size: 15px;
+    }
+    .GP-details .input-group>button{
+        padding:4px 7px !important;
+        font-size: 12px;
+    }
+    .payment-options button{
+        font-size: 15px;
+        font-weight: 600;
+        padding: 12px 10px;
+        width: 200px;
+    }
+    .modal-footer>button{
+        font-size: 5px !important;
+        padding:5px;
+    }
+    
+}
+@media screen and (max-width:770px) {
+    .hero-first h1{
+        font-size: 39px;
+    }
+    .team p{
+        width: 80% !important;
+    }
+    .copyright>p{
+    font-size: 13px !important;
+    font-weight: 400;
+    }
+    .head-paragraph .top-heading{
+        font-size: 22px;
+    }
+    .Reorder-para>button{
+        padding:4px 8px !important;
+    }
+    .Reorder-para>button a{
+        font-size: 12px;
+    }
+    .Reorder-para{
+        width:90% !important;
+    }
+    .item-details image{
+        justify-content: center !important;
+        align-items: center !important;
+    } 
+    .item-details .dropdown,.dropdown-menu{
+        width:170px;
+    }
+    .payment-btn button{
+        font-size: 13px;
+        padding: 8px 20px;
+        font-weight: 500;
+        width: 60%;
+    }
+    .order-status p{
+        font-size: 14px;
+    }
+    .order-status span{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:992px) {
+    .head-search{
+        margin-top: 15px;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .head-login-cart{ 
+        order: 2; 
+        justify-content: flex-end
+    }
+    .hero{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .hero-first{
+        width:100vw !important;
+        order:2;
+        margin-top: 10px;
+    }
+    .hero-second{
+        width: 100vw !important;
+        order:1;
+        text-align: center;
+    }
+    .senior-img{
+        margin: 0px !important;
+    }
+   .hero-second .senior-img,.group-img{
+        display: flex !important;
+        justify-content: center;
+    } 
+    .medication{
+       padding-top: 0px !important;
+    }
+    .team p{
+        width: 70%;
+    }
+    .comapanies img{
+    width:10% !important;
+    }
+    .pharmacy-companies img{
+        width:95%;
+    }
+    
+    .question-form{
+        width: 90% !important;
+    }
+    .consultation-side{
+        width:50% !important;
+    }
+    .cart-details{
+        width: 75% !important;
+    }
+    .royal-mail{
+        padding:20px 20px !important;
+    }
+}
