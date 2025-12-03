@@ -1,4 +1,4 @@
-# DR.ONLINE PHARMACY BOOTSTRAP PROJECT
+# DR.ONLINE PHARMACY Bootstrap Project
 
 This is bootstrap project including multiple pages
 
