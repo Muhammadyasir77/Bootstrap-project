@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Details page Dr.online</title>
+    <link rel="icon" href="images/drHawkins.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="container top-header pt-4 align-items-center">
+            <div class="row d-flex align-items-center justify-content-between">
+                <div class="brand col-5 col-lg-3 order-1 order-lg-1">
+                   <a href="home.html">
+                       <img class="w-100" src="images/logo.svg" alt="logo.png">
+                   </a> 
+                </div>
+                <div class="input-group col-12 col-lg-4 head-search ms-auto order-lg-2 order-3">
+                    <input type="text" class="form-control border-0" placeholder="Search By Keyword">
+                    <span class="input-group-text border-0"><i class="fas fa-search text-primary"></i></span>
+                </div>
+                <div class="head-login-cart col-7 col-lg-5 d-flex align-items-center order-lg-3 order-2 gap-sm-4 gap-2 justify-content-end">
+                    <div class="head-login d-flex align-items-center gap-sm-3 gap-2">
+                    <a href="conditions.html" class="text-decoration-none d-none d-md-block">Conditions A-Z</a>
+                    <a href="#" class="text-decoration-none d-none d-md-block">about us</a>
+                    <a href="#" class="text-decoration-none d-none d-md-block">HealthHub</a>
+                    </div>
+                    <div class="cart">
+                        <a href="#cartmodal" data-bs-toggle="modal">
+                            <span class="rounded-circle bg-primary p-2">
+                                <i class="bi bi-cart text-white"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="modal" id="cartmodal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title mx-3 text-center">Your Cart</h4>
+                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="viagra d-flex align-items-center flex-column flex-sm-row gap-sm-3 gap-2 gap-lg-4">
+                                        <div class="image">
+                                            <img src="images/viagra_tablet.svg" alt="viagra.png">
+                                        </div>
+                                        <div class="viagra-details">
+                                            <p>viagra 100mg capsules</p>
+                                            <select class="p-2 w-100 rounded" name="tablet-quantity" id="tablet-quantity">
+                                                <option value="4 tabs">4 tabs €9.99</option>
+                                                <option value="10 tabs">10 tabs €15.99</option>
+                                                <option value="20 tabs">20 tabs €24.99</option>
+                                                <option value="40 tabs">40 tabs €35.99</option>
+                                            </select>
+                                            <div class="text-end mt-2" style="font-size: 14px;">
+                                                <span><i class="fa-solid fa-trash text-danger me-1"></i>Delete</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lansoprazole d-flex align-items-center flex-column flex-sm-row gap-sm-3 gap-lg-4 gap-2 mt-2">
+                                        <div class="image">
+                                            <img src="images/lansoprazole.svg" alt="lansoprazole.png">
+                                        </div>
+                                        <div class="viagra-details">
+                                            <p>Lansoprazole Capsules</p>
+                                            <select class="p-2 rounded" name="tablet-quantity" id="tablet-quantity">
+                                                <option value="4 tabs">4 tablets - €9.99</option>
+                                                <option value="10 tabs">10 tablets - €15.99</option>
+                                                <option value="20 tabs">20 tablets - €24.99</option>
+                                                <option value="40 tabs">40 tablets - €35.99</option>
+                                            </select>
+                                            <div class="text-end mt-2" style="font-size: 14px;">
+                                                <span><i class="fa-solid fa-trash text-danger me-1"></i> Delete</span>
+                                            </div>
+                                        </div>
+                                    </div>   
+                                </div>
+                                <div class="modal-footer justify-content-start ms-4 gap-3">
+                                    <a href="cart.html" class="btn cart-btn btn-outline-primary text-decoration-none text-primary">
+                                        View Cart</a>
+                                    <a href="checkOut.html" class="btn check-btn btn-primary text-decoration-none text-white">
+                                        Proceed to Checkout</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-md justify-content-center py-3 mt-3">
+            <div class="container justify-content-center">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbar-collapse">
+                        <ul class="navbar-nav pt-3 align-items-center pt-md-0 gap-lg-4">
+                            <li class="nav-item "><a href="conditions.html" class="text-decoration-none nav-link d-block d-md-none">Conditions A-Z</a></li>
+                            <li class="nav-item "><a href="#" class="text-decoration-none nav-link d-block d-md-none">about us</a></li> 
+                            <li class="nav-item "><a href="#" class="text-decoration-none nav-link d-block d-md-none">HealthHub</a></li> 
+                            <li class="nav-item "><a href="#" class="nav-link">General Health</a></li>
+                            <li class="nav-item "><a href="#" class="nav-link">Sexual Health</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Men's Health</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Women's Health</a></li>
+                            <li class="nav-item dropdown position-static">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" >Other's Health</a>
+                                <div class="dropdown-menu mega-menu container  ps-1 p-4 rounded" id="dropdown-menu">
+                                    <div class="row g-4">
+                                        <div class="col-12 col-md-6 col-lg-4 ps-5">
+                                            <h4>Other Health</h4>
+                                
+                                            <h6 class="menu-title mt-3">Men health</h6>
+                                            <ul class="list-unstyled">
+                                                <li><a href="productDetails.html">Erectile Dysfunction (2)</a></li>
+                                                <li><a href="#">Hay Fever (2)</a></li>
+                                            </ul>
+                                
+                                            <h6 class="menu-title mt-3">Women's health</h6>
+                                            <ul class="list-unstyled">
+                                                <li><a href="#">Contraception (2)</a></li>
+                                                <li><a href="#">Cystitis UTi (10)</a></li>
+                                                <li><a href="#">Hay Fever (06)</a></li>
+                                            </ul>
+                                
+                                            <h6 class="menu-title mt-3">Skin Care</h6>
+                                            <ul class="list-unstyled">
+                                                <li><a href="#">Contraception (2)</a></li>
+                                                <li><a href="#">Cystitis UTi (10)</a></li>
+                                            </ul>
+                                
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4 ps-5 mt-5 mb-4 border-start">
+                                            <h6 class="menu-title mt-3">Women's health</h6>
+                                            <ul class="list-unstyled">
+                                                <li><a href="#">Contraception (2)</a></li>
+                                                <li><a href="#">Cystitis UTi (10)</a></li>
+                                                <li><a href="#">Hay Fever (06)</a></li>
+                                            </ul>
+                                
+                                            <h6 class="menu-title mt-3">Skin Care</h6>
+                                            <ul class="list-unstyled">
+                                                <li><a href="#">Contraception (2)</a></li>
+                                                <li><a href="#">Cystitis UTi (10)</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-12 col-md-6 ms-auto me-auto col-lg-4 rounded">
+                                            <div class="men-health-menu p-4 rounded-4">
+                                                <img class="w-100" src="images/menHealthCatg.svg" alt="menhealth.png">
+                                                <h6 class="mt-3">Men Health</h6>
+                                                <p>Lorem Ipsum as their default model text,
+                                                    and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+                                                <a href="#">Read More <i class="fas fa-arrow-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container-fluid viagra-product-details">
+        <div class="container">
+            <div class="row py-5 g-5">
+                <div class="col-lg-5 img-side text-center text-sm-start">
+                    <div class="viagra-prod-img text-center"><img class="w-75" src="images/viagra_tablet.svg" alt="viagra.png"></div>
+                    <p class="mt-4">Viagra tablets help achieve and maintain an erection. It is the original erectile dysfunction medication and has helped millions of men around the world. You can order the branded Viagra or a lower cost generic equivalent. Simply answer a health questionnaire and one of our prescribers will make sure this treatment is right for you.</p>
+                </div>
+                <div class="col-12 col-lg-7 text-center text-sm-start">
+                    <h6 class="categ-heading">Men's Health | Erectile Dysfunction</h6>
+                    <h3 class="my-3 fw-bold">Viagra Tablets</h3>
+                    <span>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        (21 Reviews)
+                    </span>
+                    <h5 class="fw-bold my-3">Price Checker</h5>
+                    <div class="selection-group">
+                        <div class="row g-3">
+                            <p class="fw-medium mb-0 mt-5">What strength do you need?</p>
+                            <div class="col-sm-4 rounded mb-3">
+                                <input type="radio" class="btn-check" name="strength" id="25mg" checked>
+                                <label class="btn selection-card bg-light px-5 py-2" for="25mg">25mg</label>
+                            </div>
+                            <div class="col-sm-4 rounded  mb-3">
+                                <input type="radio" class="btn-check" name="strength" id="50mg">
+                                <label class="btn selection-card bg-light px-5 py-2" for="50mg">50mg</label>
+                            </div>
+                            <div class="col-sm-4 rounded mb-3">
+                                <input type="radio" class="btn-check" name="strength" id="100mg">
+                                <label class="btn selection-card bg-light px-5 py-2" for="100mg">100mg</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="selection-group">
+                        <div class="row g-3">
+                            <p class="fw-medium mb-0 mt-5">Which brand would you prefer?</p>
+                            <div class="col-sm-4 rounded mb-3">
+                                <input type="radio" class="btn-check" name="brand" id="vbrand" checked>
+                                <label class="btn selection-card bg-light px-5 py-2" for="vbrand">Viagra</label>
+                            </div>
+                            <div class="col-sm-4 rounded  mb-3">
+                                <input type="radio" class="btn-check" name="brand" id="sildenafil">
+                                <label class="btn selection-card bg-light px-5 py-2" for="sildenafil">Sildenafil</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="selection-group">
+                        <div class="row g-3">
+                            <p class="fw-medium mb-0 mt-5">How many would you like?</p>
+                            <div class="col-sm-4 rounded">
+                                <input type="radio" class="btn-check" name="tabs" id="4tabs" checked>
+                                <label class="btn selection-card bg-light px-5 py-2" for="4tabs">4 Tablets</label>
+                            </div>
+                            <div class="col-sm-4 rounded">
+                                <input type="radio" class="btn-check" name="tabs" id="8tabs">
+                                <label class="btn selection-card bg-light px-5 py-2" for="8tabs">8 Tablets</label>
+                            </div>
+                            <div class="col-sm-4 rounded">
+                                <input type="radio" class="btn-check" name="tabs" id="12tabs">
+                                <label class="btn selection-card bg-light px-5 py-2" for="12tabs">12 Tablets</label>
+                            </div>
+                            <div class="col-sm-4 rounded mb-3">
+                                <input type="radio" class="btn-check" name="tabs" id="16tabs">
+                                <label class="btn selection-card bg-light px-5 py-2" for="16tabs">16 Tablets</label>
+                            </div>
+                            <div class="col-sm-4 rounded  mb-3">
+                                <input type="radio" class="btn-check" name="tabs" id="24tabs">
+                                <label class="btn selection-card bg-light px-5 py-2" for="24tabs">24 Tablets</label>
+                            </div>
+                            <div class="col-sm-4 rounded mb-3">
+                                <input type="radio" class="btn-check" name="tabs" id="32tabs">
+                                <label class="btn selection-card bg-light px-5 py-2" for="32tabs">32 Tablets</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="selection-group">
+                        <div class="row g-3">
+                            <p class="fw-medium mb-0 mt-5">How often would you like your medication delivered?</p>
+                            <div class="col-sm-4 rounded mb-3">
+                                <input type="radio" class="btn-check" name="med-delv" id="onetime" checked>
+                                <label class="btn selection-card bg-light px-3 py-2" for="onetime">One time purchase</label>
+                            </div>
+                            <div class="col-sm-4 rounded  mb-3">
+                                <input type="radio" class="btn-check" name="med-delv" id="month">
+                                <label class="btn selection-card bg-light px-5 py-2" for="month">Monthly</label>
+                            </div>
+                            <div class="col-sm-4 rounded mb-3">
+                                <input type="radio" class="btn-check" name="med-delv" id="3months">
+                                <label class="btn selection-card bg-light px-4 py-2" for="3months">Every 3 Months</label>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="AcidConsultation.html" class="btn my-4 btn-primary px-4 py-2">Continue To Consultation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faqs-section container-fluid bg-white">
+        <div class="container text-center py-5">
+            <h2>Frequently Asked Questions</h2>
+            <div class="row g-4 mt-3">
+                <div class="col-12 faq col-lg-6 text-start">
+                    
+                    <a href="#collapse-content" data-bs-toggle="collapse" class="d-flex  justify-content-between text-decoration-none gap-2 p-3 shadow-sm rounded-3">
+                             What is Acid Reflux?
+                            <span><i class="bi bi-plus-circle"></i></span>
+                    </a>
+                    <div class="collapse-content collapse" id="collapse-content">
+                        <div class="card card-body text-start">
+                                Acid reflux occurs when stomach acid flows back up into the esophagus, causing symptoms such as heartburn, regurgitation, and discomfort. It can be triggered by certain foods, lifestyle factors, or medical conditions. Managing acid reflux often involves dietary changes, lifestyle modifications, and sometimes medication to reduce stomach acid production.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 faq col-lg-6 text-start">
+                        <a href="#causes" data-bs-toggle="collapse" class="d-flex justify-content-between text-decoration-none gap-2 p-3 shadow-sm rounded-3"> 
+                            What Causes Acid Reflux?
+                            <span><i class="bi bi-plus-circle"></i></span>
+                        </a>
+                    <div class="collapse-content collapse" id="causes">
+                        <div class="card card-body text-start">
+                                Acid reflux occurs when stomach acid flows back up into the esophagus, causing symptoms such as heartburn, regurgitation, and discomfort. It can be triggered by certain foods, lifestyle factors, or medical conditions. Managing acid reflux often involves dietary changes, lifestyle modifications, and sometimes medication to reduce stomach acid production.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 faq col-lg-6 text-start">
+                    <a href="#symptoms" data-bs-toggle="collapse" class="d-flex text-dark justify-content-between text-decoration-none gap-2 p-3 shadow-sm rounded-3">
+                             What Are The Symptoms Of Acid Reflux?
+                            <span><i class="bi bi-plus-circle"></i></span>
+                    </a>
+                    <div class="collapse-content collapse" id="symptoms">
+                        <div class="card card-body text-start">
+                                Acid reflux occurs when stomach acid flows back up into the esophagus, causing symptoms such as heartburn, regurgitation, and discomfort. It can be triggered by certain foods, lifestyle factors, or medical conditions. Managing acid reflux often involves dietary changes, lifestyle modifications, and sometimes medication to reduce stomach acid production.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12  faq col-lg-6 text-start">
+                    <a href="#treat" data-bs-toggle="collapse" class="d-flex justify-content-between text-decoration-none gap-2 p-3 shadow-sm rounded-3">
+                            What Medication Can I Use To Treat Acid Reflux?
+                            <span><i class="bi bi-plus-circle"></i></span>
+                    </a>
+                    <div class="collapse-content collapse" id="treat">
+                        <div class="card card-body text-start">
+                                Acid reflux occurs when stomach acid flows back up into the esophagus, causing symptoms such as heartburn, regurgitation, and discomfort. It can be triggered by certain foods, lifestyle factors, or medical conditions. Managing acid reflux often involves dietary changes, lifestyle modifications, and sometimes medication to reduce stomach acid production.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 faq col-lg-6 text-start">
+                    <a href="#place" data-bs-toggle="collapse" class="d-flex justify-content-between text-decoration-none gap-2 p-3 shadow-sm rounded-3"> 
+                            Where Can I Get Treatment For Acid Reflux?
+                            <span><i class="bi bi-plus-circle"></i></span>
+                    </a>
+                    <div class="collapse-content collapse" id="place">
+                        <div class="card card-body text-start">
+                                Acid reflux occurs when stomach acid flows back up into the esophagus, causing symptoms such as heartburn, regurgitation, and discomfort. It can be triggered by certain foods, lifestyle factors, or medical conditions. Managing acid reflux often involves dietary changes, lifestyle modifications, and sometimes medication to reduce stomach acid production.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 faq col-lg-6 text-start">
+                    <a href="#sideEffect" data-bs-toggle="collapse" class="d-flex justify-content-between text-decoration-none gap-2 p-3 shadow-sm rounded-3"> 
+                            What Are The Side Effects Of Acid Reflux Medication?
+                            <span><i class="bi bi-plus-circle"></i></span>
+                    </a>
+                    <div class="collapse-content collapse" id="sideEffect">
+                        <div class="card card-body text-start">
+                                Acid reflux occurs when stomach acid flows back up into the esophagus, causing symptoms such as heartburn, regurgitation, and discomfort. It can be triggered by certain foods, lifestyle factors, or medical conditions. Managing acid reflux often involves dietary changes, lifestyle modifications, and sometimes medication to reduce stomach acid production.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </section>
+
+    <section class="patient-review-section container-fluid py-5">
+        <div class="container text-center">
+            <h2>What Our Patients Say</h2>
+            <p>Our patient care team is excellent!</p>
+            <div class="row row-cols-1 row-cols-md-2 g-3 mt-4 justify-content-center">
+                <div class="col text-start">
+                    <div class="bg-white p-4 rounded-3">
+                        <h6>&quot;infinitely quicker&quot;</blockquote></h6>
+                        <img class="ms-1" src="images/stars.svg" alt="stars.png">
+                        <p class="mt-2 ms-1">I love how user-friendly this app is! It's so easy to add more events and set reminders, and it's made my life so much more organized layers and stuff.</p>
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="images/patientMen.svg" alt="patientmen.png">
+                            <h6 class="patient-name pt-2">Sophie More</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col text-start ">
+                    <div class="bg-white p-4 rounded-3">
+                        <h6>&quot;infinitely quicker&quot;</blockquote></h6>
+                        <img class="ms-1" src="images/stars.svg" alt="stars.png">
+                        <p class="mt-2 ms-1">I love how user-friendly this app is! It's so easy to add more events and set reminders, and it's made my life so much more organized layers and stuff.</p>
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="images/patientMen.svg" alt="patientmen.png">
+                            <h6 class="patient-name pt-2">Sophie More</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-row align-items-center gap-3 justify-content-center mt-3 trustpilot">
+                <img src="images/trustpilotIcon.svg" alt="trustpilot.png">
+                <p class="mt-4"><span>4.8</span> out of 5 | <span>1024</span> Reviews</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-section container-fluid bg-white py-5">
+        <div class="container">
+            <div class="text-center pb-4">
+                <h2>Related Blog Articles</h2>
+                <p>keep up to date with important company news and insights</p>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="blog-card h-100">
+                        <img src="images/blog1-img.svg" class="card-img-top" alt="blog1.png">
+                        <div class="card-body py-3">
+                            <span class="py-1 px-2 rounded">Covid 19 Updates</span>
+                            <h4 class="card-title mt-3">5 Top Tips To Stay Hydrated This Summer</h4>
+                            <p class="pe-2">Publishing software like Aldus PageMaker including versions of lorem ipsum</p>
+                            <a href="#" class="text-decoration-none">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="blog-card h-100">
+                        <img src="images/blog2.svg" class="card-img-top" alt="blog2.png">
+                        <div class="card-body py-3">
+                            <span class="py-1 px-2 rounded">Seasonal Health</span>
+                            <h4 class="card-title mt-3">5 Top Tips To Stay Hydrated This Summer</h4>
+                            <p class="pe-2">Publishing software like Aldus PageMaker including versions of lorem ipsum</p>
+                            <a href="#" class="text-decoration-none">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="blog-card h-100">
+                        <img src="images/blog3.svg" class="card-img-top" alt="blog3.png">
+                        <div class="card-body py-3">
+                            <span class="py-1 px-2 rounded">Covid 19 Updates</span>
+                            <h4 class="card-title mt-3">5 Top Tips To Stay Hydrated This Summer</h4>
+                            <p class="pe-2">Publishing software like Aldus PageMaker including versions of lorem ipsum</p>
+                            <a href="#" class="text-decoration-none">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="companies-section container-fluid">
+        <div class="container justify-content-center text-center py-5">
+            <h2>Proudly Supported By Industry Experts</h2>
+            <p>Keep up to date with important company news and insights</p>
+            <div class="comapanies d-flex mt-4 justify-content-center align-items-center gap-md-5 gap-4">
+                <img class="" src="images/socialtech.svg" alt="socialtech.png">
+                <img class="" src="images/ukRi.svg" alt="ukRi.png">
+                <img class="" src="images/UEA.svg" alt="uea.png">
+                <img class="" src="images/natwest.svg" alt="natwest.png">
+                <img class="" src="images/smallBusiness.svg" alt="smallBusiness.png">
+                <img class=""  src="images/technation.svg" alt="technation.png">
+            </div>
+        </div>
+    </section>
+    <footer class="footer-top container-fluid">
+        <div class="container">
+            <div class="row text-center text-sm-start flex-wrap row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-5 py-5 justify-content-center">
+                <div class="col mt-2 text-center justify-content-center d-flex flex-column align-items-center">
+                    <img class="mt-4" src="images/logo.svg" alt="logo">
+                    <p class="mt-2">020 90000 0000</p>
+                    <p>info@demopharmacy.co.uk</p>
+                    <div class="social-icons gap-3 d-flex">
+                        <span><i class="bi bi-facebook text-primary"></i></span>
+                        <span><i class="bi bi-twitter text-primary"></i></span>
+                        <span><i class="fas fa-camera text-primary"></i></span>
+                    </div>
+                </div>
+                <div class="col">
+                    <h5>About</h5>
+                    <ul class="list-unstyled d-flex gap-1 flex-column">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">How it works</a></li>
+                        <li><a href="#">Shiping delivery</a></li>
+                        <li><a href="#">Regulation</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled d-flex gap-1 flex-column">
+                        <li><a href="#">FAQ's</a></li>
+                        <li><a href="#">Health hub</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Complaint form</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled d-flex gap-1 flex-column">
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">GDPR data privacy</a></li>
+                        <li><a href="#">Refund</a></li>
+                        <li><a href="#">Return and cancellation</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled d-flex gap-1 flex-column">
+                        <li><a href="#">Terms and condition</a></li>
+                        <li><a href="#">Term and Con of website</a></li>
+                        <li><a href="#">Cookies policy</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <hr>
+            <div class="pharmacy-companies text-center mb-4">
+                <img src="images/LOGOS.svg" alt="logos.svg">
+            </div>
+            <div class="copyright">
+                <p class="text-center">Copyright 2023 &copy; Demo Pharmacy All rights reserved.</p>
+                <p class="text-center">Website Designed & Developed by <a href="#">Pharmafocus</a></p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
