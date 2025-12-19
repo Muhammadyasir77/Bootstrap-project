@@ -16,13 +16,15 @@
         <div class="container top-header pt-4 align-items-center">
             <div class="row d-flex align-items-center justify-content-between">
                 <div class="brand col-6 col-lg-3 order-1 order-lg-1">
-                    <img class="w-100" src="images/logo.svg" alt="logo.png">
+                   <a href="home.html">
+                       <img class="w-100" src="images/logo.svg" alt="logo.png">
+                   </a> 
                 </div>
                 <div class="input-group col-12 col-lg-6 head-search order-lg-2 order-3">
                     <input type="text" class="form-control border-0" placeholder="Search By Keyword">
                     <span class="input-group-text border-0"><i class="fas fa-search text-primary"></i></span>
                 </div>
-                <div class="head-login-cart col-6 col-lg-3 d-flex align-items-center justify-content-end order-lg-3 order-2 gap-sm-4 gap-2">
+                <div class="head-login-cart col-6 col-lg-3 d-flex align-items-center order-lg-3 order-2 gap-sm-4 gap-2 justify-content-end">
                     <div class="head-login d-flex align-items-center gap-sm-3 gap-2">
                     <i class="fa-regular fa-user"></i>
                     <h4 class="pt-2">Login</h4>
@@ -89,9 +91,9 @@
                 </div>
             </div>
         </div>
-        <nav class="navbar navbar-expand-md justify-content-center py-4 mt-3">
+        <nav class="navbar navbar-expand-md justify-content-center py-3 mt-3">
             <div class="container justify-content-center">
-                    <button class="navbar-toggler btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse justify-content-center" id="navbar-collapse">
                         <ul class="navbar-nav pt-3 align-items-center pt-md-0 gap-lg-4">
@@ -99,7 +101,59 @@
                             <li class="nav-item "><a href="#" class="nav-link">Sexual Health</a></li>
                             <li class="nav-item"><a href="#" class="nav-link">Men's Health</a></li>
                             <li class="nav-item"><a href="#" class="nav-link">Women's Health</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Other's Health</a></li>
+                            <li class="nav-item dropdown position-static">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" >Other's Health</a>
+                                <div class="dropdown-menu mega-menu container  ps-1 p-4 rounded" id="dropdown-menu">
+                                    <div class="row g-4">
+                                        <div class="col-12 col-md-6 col-lg-4 ps-5">
+                                            <h4>Other Health</h4>
+                                
+                                            <h6 class="menu-title mt-3">Men health</h6>
+                                            <ul class="list-unstyled">
+                                                <li><a href="productDetails.html">Erectile Dysfunction (2)</a></li>
+                                                <li><a href="#">Hay Fever (2)</a></li>
+                                            </ul>
+                                
+                                            <h6 class="menu-title mt-3">Women's health</h6>
+                                            <ul class="list-unstyled">
+                                                <li><a href="#">Contraception (2)</a></li>
+                                                <li><a href="#">Cystitis UTi (10)</a></li>
+                                                <li><a href="#">Hay Fever (06)</a></li>
+                                            </ul>
+                                
+                                            <h6 class="menu-title mt-3">Skin Care</h6>
+                                            <ul class="list-unstyled">
+                                                <li><a href="#">Contraception (2)</a></li>
+                                                <li><a href="#">Cystitis UTi (10)</a></li>
+                                            </ul>
+                                
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4 ps-5 mt-5 mb-4 border-start">
+                                            <h6 class="menu-title mt-3">Women's health</h6>
+                                            <ul class="list-unstyled">
+                                                <li><a href="#">Contraception (2)</a></li>
+                                                <li><a href="#">Cystitis UTi (10)</a></li>
+                                                <li><a href="#">Hay Fever (06)</a></li>
+                                            </ul>
+                                
+                                            <h6 class="menu-title mt-3">Skin Care</h6>
+                                            <ul class="list-unstyled">
+                                                <li><a href="#">Contraception (2)</a></li>
+                                                <li><a href="#">Cystitis UTi (10)</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-12 col-md-6 ms-auto me-auto col-lg-4 rounded">
+                                            <div class="men-health-menu p-4 rounded-4">
+                                                <img class="w-100" src="images/menHealthCatg.svg" alt="menhealth.png">
+                                                <h6 class="mt-3">Men Health</h6>
+                                                <p>Lorem Ipsum as their default model text,
+                                                    and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+                                                <a href="#">Read More <i class="fas fa-arrow-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
                     </div>
             </div>
