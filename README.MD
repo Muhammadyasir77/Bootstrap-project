@@ -1,12 +1,10 @@
 # DR.ONLINE PHARMACY Bootstrap Project
 
-This is bootstrap project including multiple pages
+This is bootstrap project Dr.online Pharmacy
 
 <br>
-live link : https://dronline-pharmacy.netlify.app/
 
 <a href="https://dronline-pharmacy.netlify.app/">live link </a>
 
-<br>
 <br>
 Author : Muhammad Yasir 
