@@ -48,15 +48,12 @@
                                         </div>
                                         <div class="viagra-details">
                                             <p>viagra 100mg capsules</p>
-                                            <div class="dropdown dropdown-toggle" data-bs-toggle="dropdown">
-                                                4 tablets - €9.99
-                                            </div>
-                                            <ul class="dropdown-menu">
-                                                <li class="dropdown-item"> 4 tablets - €9.99</li>
-                                                <li class="dropdown-item"> 10 tablets - €15.99</li>
-                                                <li class="dropdown-item"> 20 tablets - €24.99</li>
-                                                <li class="dropdown-item"> 40 tablets - €35.99</li>
-                                            </ul>
+                                            <select class="p-2 w-100 rounded" name="tablet-quantity" id="tablet-quantity">
+                                                <option value="4 tabs">4 tabs €9.99</option>
+                                                <option value="10 tabs">10 tabs €15.99</option>
+                                                <option value="20 tabs">20 tabs €24.99</option>
+                                                <option value="40 tabs">40 tabs €35.99</option>
+                                            </select>
                                             <div class="text-end mt-2" style="font-size: 14px;">
                                                 <span><i class="fa-solid fa-trash text-danger me-1"></i>Delete</span>
                                             </div>
@@ -68,15 +65,12 @@
                                         </div>
                                         <div class="viagra-details">
                                             <p>Lansoprazole Capsules</p>
-                                            <div class="dropdown dropdown-toggle" data-bs-toggle="dropdown">
-                                                4 tablets - €9.99
-                                            </div>
-                                            <ul class="dropdown-menu">
-                                                <li class="dropdown-item"> 4 tablets - €9.99</li>
-                                                <li class="dropdown-item"> 10 tablets - €15.99</li>
-                                                <li class="dropdown-item"> 20 tablets - €24.99</li>
-                                                <li class="dropdown-item"> 40 tablets - €35.99</li>
-                                            </ul>
+                                            <select class="p-2 rounded" name="tablet-quantity" id="tablet-quantity">
+                                                <option value="4 tabs">4 tablets - €9.99</option>
+                                                <option value="10 tabs">10 tablets - €15.99</option>
+                                                <option value="20 tabs">20 tablets - €24.99</option>
+                                                <option value="40 tabs">40 tablets - €35.99</option>
+                                            </select>
                                             <div class="text-end mt-2" style="font-size: 14px;">
                                                 <span><i class="fa-solid fa-trash text-danger me-1"></i> Delete</span>
                                             </div>
@@ -165,7 +159,7 @@
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div class="col">
                          <div class="bg-white p-3 pb-1 rounded-3 ">
-                            <a href="#" class="text-decoration-none">
+                            <a href="productDetails.html" class="text-decoration-none">
                                 <h5>Erectile dysfunction <i class="bi bi-chevron-right text-primary"></i></h5>
                                 <p>Make sex easier with proven treatments</p>
                             </a>
@@ -189,7 +183,7 @@
                     </div>
                     <div class="col">
                          <div class="bg-white p-3 pb-1 rounded-3 ">
-                            <a href="#" class="text-decoration-none">
+                            <a href="productDetails.html" class="text-decoration-none">
                                 <h5>Erectile dysfunction <i class="bi bi-chevron-right text-primary"></i></h5>
                                 <p>Make sex easier with proven treatments</p>
                             </a>
@@ -213,7 +207,7 @@
                     </div>
                     <div class="col">
                          <div class="bg-white p-3 pb-1 rounded-3 ">
-                            <a href="#" class="text-decoration-none">
+                            <a href="productDetails.html" class="text-decoration-none">
                                 <h5>Erectile dysfunction <i class="bi bi-chevron-right text-primary"></i></h5>
                                 <p>Make sex easier with proven treatments</p>
                             </a>
@@ -254,7 +248,7 @@
                         </a>
                     </div>
                     <div class="card col text-center border-0">
-                        <a href="#" class="text-decoration-none">
+                        <a href="treatment.html" class="text-decoration-none">
                             <div class="card-img d-flex flex-column align-items-center">
                                 <img src="images/phoneMedicine.svg" alt="phone.png">
                                 <span class="text-white border border-3 border-white rounded-circle p-2">2</span>
@@ -430,12 +424,11 @@
             <h2>Frequently Asked Questions</h2>
             <div class="row g-4 mt-3">
                 <div class="col-12 faq col-lg-6 text-start">
-                    <button class="collapsebtn  align-items-center w-100 p-3 border-0 bg-white shadow-sm rounded-3">
-                        <a href="#collapse-content" data-bs-toggle="collapse" class="d-flex justify-content-between text-decoration-none gap-2">
+                    
+                    <a href="#collapse-content" data-bs-toggle="collapse" class="d-flex  justify-content-between text-decoration-none gap-2 p-3 shadow-sm rounded-3">
                              What is Acid Reflux?
                             <span><i class="bi bi-plus-circle"></i></span>
-                        </a>
-                    </button>
+                    </a>
                     <div class="collapse-content collapse" id="collapse-content">
                         <div class="card card-body text-start">
                                 Acid reflux occurs when stomach acid flows back up into the esophagus, causing symptoms such as heartburn, regurgitation, and discomfort. It can be triggered by certain foods, lifestyle factors, or medical conditions. Managing acid reflux often involves dietary changes, lifestyle modifications, and sometimes medication to reduce stomach acid production.
@@ -443,12 +436,10 @@
                     </div>
                 </div>
                 <div class="col-12 faq col-lg-6 text-start">
-                    <button class="collapsebtn  align-items-center w-100 p-3 border-0 bg-white shadow-sm rounded-3">
-                        <a href="#causes" data-bs-toggle="collapse" class="d-flex justify-content-between text-decoration-none gap-2"> 
+                        <a href="#causes" data-bs-toggle="collapse" class="d-flex justify-content-between text-decoration-none gap-2 p-3 shadow-sm rounded-3"> 
                             What Causes Acid Reflux?
                             <span><i class="bi bi-plus-circle"></i></span>
                         </a>
-                    </button>
                     <div class="collapse-content collapse" id="causes">
                         <div class="card card-body text-start">
                                 Acid reflux occurs when stomach acid flows back up into the esophagus, causing symptoms such as heartburn, regurgitation, and discomfort. It can be triggered by certain foods, lifestyle factors, or medical conditions. Managing acid reflux often involves dietary changes, lifestyle modifications, and sometimes medication to reduce stomach acid production.
@@ -456,12 +447,10 @@
                     </div>
                 </div>
                 <div class="col-12 faq col-lg-6 text-start">
-                    <button class="collapsebtn  align-items-center w-100 p-3 border-0 bg-white shadow-sm rounded-3">
-                        <a href="#symptoms" data-bs-toggle="collapse" class="d-flex text-dark justify-content-between text-decoration-none gap-2">
+                    <a href="#symptoms" data-bs-toggle="collapse" class="d-flex text-dark justify-content-between text-decoration-none gap-2 p-3 shadow-sm rounded-3">
                              What Are The Symptoms Of Acid Reflux?
                             <span><i class="bi bi-plus-circle"></i></span>
-                        </a>
-                    </button>
+                    </a>
                     <div class="collapse-content collapse" id="symptoms">
                         <div class="card card-body text-start">
                                 Acid reflux occurs when stomach acid flows back up into the esophagus, causing symptoms such as heartburn, regurgitation, and discomfort. It can be triggered by certain foods, lifestyle factors, or medical conditions. Managing acid reflux often involves dietary changes, lifestyle modifications, and sometimes medication to reduce stomach acid production.
@@ -469,12 +458,10 @@
                     </div>
                 </div>
                 <div class="col-12  faq col-lg-6 text-start">
-                    <button class="collapsebtn  align-items-center w-100 p-3 border-0 bg-white shadow-sm rounded-3">
-                        <a href="#treat" data-bs-toggle="collapse" class="d-flex justify-content-between text-decoration-none gap-2">
+                    <a href="#treat" data-bs-toggle="collapse" class="d-flex justify-content-between text-decoration-none gap-2 p-3 shadow-sm rounded-3">
                             What Medication Can I Use To Treat Acid Reflux?
                             <span><i class="bi bi-plus-circle"></i></span>
-                        </a>
-                    </button>
+                    </a>
                     <div class="collapse-content collapse" id="treat">
                         <div class="card card-body text-start">
                                 Acid reflux occurs when stomach acid flows back up into the esophagus, causing symptoms such as heartburn, regurgitation, and discomfort. It can be triggered by certain foods, lifestyle factors, or medical conditions. Managing acid reflux often involves dietary changes, lifestyle modifications, and sometimes medication to reduce stomach acid production.
@@ -482,12 +469,10 @@
                     </div>
                 </div>
                 <div class="col-12 faq col-lg-6 text-start">
-                    <button class="collapsebtn  align-items-center w-100 p-3 border-0 bg-white shadow-sm rounded-3">
-                        <a href="#place" data-bs-toggle="collapse" class="d-flex justify-content-between text-decoration-none gap-2"> 
+                    <a href="#place" data-bs-toggle="collapse" class="d-flex justify-content-between text-decoration-none gap-2 p-3 shadow-sm rounded-3"> 
                             Where Can I Get Treatment For Acid Reflux?
                             <span><i class="bi bi-plus-circle"></i></span>
-                        </a>
-                    </button>
+                    </a>
                     <div class="collapse-content collapse" id="place">
                         <div class="card card-body text-start">
                                 Acid reflux occurs when stomach acid flows back up into the esophagus, causing symptoms such as heartburn, regurgitation, and discomfort. It can be triggered by certain foods, lifestyle factors, or medical conditions. Managing acid reflux often involves dietary changes, lifestyle modifications, and sometimes medication to reduce stomach acid production.
@@ -495,12 +480,10 @@
                     </div>
                 </div>
                 <div class="col-12 faq col-lg-6 text-start">
-                    <button class="collapsebtn  align-items-center w-100 p-3 border-0 bg-white shadow-sm rounded-3">
-                        <a href="#sideEffect" data-bs-toggle="collapse" class="d-flex justify-content-between text-decoration-none gap-2"> 
+                    <a href="#sideEffect" data-bs-toggle="collapse" class="d-flex justify-content-between text-decoration-none gap-2 p-3 shadow-sm rounded-3"> 
                             What Are The Side Effects Of Acid Reflux Medication?
                             <span><i class="bi bi-plus-circle"></i></span>
-                        </a>
-                    </button>
+                    </a>
                     <div class="collapse-content collapse" id="sideEffect">
                         <div class="card card-body text-start">
                                 Acid reflux occurs when stomach acid flows back up into the esophagus, causing symptoms such as heartburn, regurgitation, and discomfort. It can be triggered by certain foods, lifestyle factors, or medical conditions. Managing acid reflux often involves dietary changes, lifestyle modifications, and sometimes medication to reduce stomach acid production.

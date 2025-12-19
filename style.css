@@ -70,10 +70,21 @@ body input:focus{
     width: 200px;
     margin-left: 15px;
 }
+.modal-body .viagra-details select{
+    border:1px solid #C7E8F3;
+    font-weight: 400;
+    color: #12395D;
+}
+.modal-body .viagra-details select option{
+    font-weight: 400;
+    color: #12395D;
+    font-size: 12px;
+}
+
 nav{
     background-color: #C3E6F2;
 }
-.nav a{
+.navbar-nav a{
     color:#12395D;
     font-weight: 400;
     size:16px;
@@ -810,6 +821,311 @@ input[type="radio"]{
     color: #687EFF;
 }
 
+
+
+/* Your treatment page */
+.about-dr-treatment h4{
+    font-size: 28px;
+    font-weight: 600;
+    color: #12395D;
+}
+.about-dr-treatment p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #233D55;
+    opacity: 0.8;
+}
+.about-dr-treatment h6{
+    font-size: 18px;
+    font-weight: 600;
+    color: #233D55;
+    opacity: 0.8;
+}   
+.Dr-justin h6{
+    font-size: 18px;
+    font-weight: 600;
+    color: #12395D;
+    opacity: 1;
+}
+.Dr-justin p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #233D55;
+    opacity: 0.8;
+}
+
+.viagra-img{
+    background-color: #C3E6F2;
+    border-radius: 10px;
+}
+.erectile-dysfunction-treatment select{
+    outline: none !important;
+    border: 1px solid #C7E8F3 !important;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #233D55CC;
+    opacity: 0.8;
+}
+.erectile-dysfunction-treatment label{
+    font-size: 15px;
+    font-weight: 500;
+    color: #12395D;
+}
+.tab-name>.head-name{
+    font-size: 28px;
+    font-weight: 600;
+    color: #12395D;
+    font-family: Poppins;
+}
+.tab-name>a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #687EFF;
+}
+.price-checkout p{
+    font-size: 26px;
+    font-weight: 600;
+    color: #687EFF;
+}
+.price-checkout>.btn{
+    font-size: 17px;
+    font-weight: 600;
+    font-family: Poppins;
+    background-color: #687EFF;
+    color: white;
+    padding: 12px 56px;
+}
+.other-options .row .col>div{
+    background-color: #E0F7FF !important;
+}
+.other-options .tab-name>.head-name{
+    font-size: 24px;
+}
+/* conditions */
+
+.first-row-conditions h6,
+.second-row-conditions h6,
+.third-row-conditions h6,
+.fourth-row-conditions h6
+{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    color: #12395D;
+}
+.first-row-conditions p,
+.second-row-conditions p,
+.third-row-conditions p,
+.fourth-row-conditions p
+{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    color: #233D55CC;
+    opacity: 0.8;
+}
+.asthma-cond,.erectile-cond{
+    border: 1px solid #C7E8F3;
+}
+.All-condition .row span{
+    background-color: #E0F7FF;
+    padding:19px 16px !important;
+    padding-top: 25px !important;
+}
+.All-condition .row span i{
+    font-size: 30px;
+}
+
+.mega-menu a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #233D55;
+    opacity: 0.8;
+}
+nav .navbar-nav>.dropdown{
+    width: auto;
+}
+.mega-menu h4{
+    font-size: 22px;
+    font-weight: 600;
+    color: #12395D;
+}
+.mega-menu h6{
+    font-size: 17px;
+    font-weight: 600;
+    color: #12395D;
+}
+.mega-menu{
+    width:900px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    top: 115% !important; /* Spacing from top */
+    border-radius: 20px !important;
+    padding: 30px;
+    position: absolute;
+    background-color: #ffffff;
+    opacity: 1;
+    border: none;
+}
+.mega-menu::before {                          /* creating vector or upper arrow */
+    content: "";
+    position: absolute;
+    top: -12px;
+    left: 85%;
+    transform: translateX(-50%);
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid #fff;      /* Matches background color */
+}
+.nav-item .dropdown-toggle::after{
+    display: none !important;
+}
+.men-health-menu{
+    background-color: #C3E6F2;
+}
+.men-health-menu p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #233D55;
+    opacity: 0.8;
+}
+.men-health-menu a{
+    color:#687EFF;
+    font-weight: 600;
+    font-size: 16px;
+    opacity: 1;
+}
+/* product details page */
+.selection-group label{
+    font-size: 14px;
+    font-weight: 400;
+    color: #233D55CC;
+    opacity: 0.8;
+}
+.categ-heading{
+    font-size: 15px;
+    font-weight: 400;
+    color: #233D55CC;
+    opacity: 0.8;
+}
+.viagra-prod-img{
+    background-color: #C3E6F2;
+    border-radius: 10px;
+}
+.img-side >p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #233D55CC;
+    opacity: 0.8;
+}
+.blog-section h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #12395D;
+}
+.blog-section .text-center p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #233D55;
+    opacity: 0.8;
+}
+.blog-card .card-body>span{
+    background-color: #E0F7FF;
+}
+.blog-card h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #444673;
+    padding-bottom: 8px;
+}
+.blog-card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #233D55CC;
+    opacity: 0.8;
+}
+.blog-card a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #687EFF;
+}
+.acidReflux-treatment h3{
+    font-size: 40px;
+    font-weight: 600;
+}
+.acidReflux-treatment p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #233D55CC;
+    opacity: 0.8;
+}
+.lansprazole-card-img{
+    background-color: #C3E6F2;
+    border-radius: 10px;
+}
+.lans-card>h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #12395D;
+}
+.lans-card p{
+    font-size: 21px;
+    font-weight: 600;
+    color: #687EFF;
+    opacity: 1;
+}
+.justin-details{
+    background-color:#CDEAF4;
+}
+.justin-details h4{
+    font-size: 22px;
+    font-weight: 600;
+    color: #12395D;
+}
+.justin-details p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #233D55CC;
+    opacity: 0.8;
+}
+.acid-reflux-Consultation h2{
+    font-size: 28px;
+    font-weight: 600;
+    color: #12395D;
+}
+.acid-reflux-Consultation .consult-para{
+    font-size: 18px;
+    font-weight: 400;
+    color: #233D55CC;
+    opacity: 0.8;
+    line-height: 33px;
+}
+.acid-reflux-Consultation .consultbtn{
+    background-color: #687EFF;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding:12px 28px !important;
+}
+.consult-points p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #233D55CC;
+    opacity: 0.8;
+}
+.registration{
+    background:linear-gradient(to bottom,#E0F7FF 30% , white 30%);
+}
+
+
+@media screen and (min-width:992px) {
+    .dropdown:hover >.mega-menu {
+        display: block;
+    }
+}
+
 @media screen and (max-width:540px) {
     .head-search>input::placeholder{
         font-size: 12px;
@@ -988,6 +1304,20 @@ input[type="radio"]{
         font-size: 5px !important;
         padding:5px;
     }
+    .price-checkout>.btn{
+    font-size: 14px;
+    padding: 10px 30px;
+    }
+    .other-options .price-checkout p{
+        font-size: 20px;
+    }
+    .other-options .price-checkout>.btn{
+        font-size: 14px;
+        padding: 6px 15px;
+    }
+    .All-condition .input-group{
+        width:85% !important;
+    }
     
 }
 @media screen and (max-width:770px) {
@@ -1031,6 +1361,17 @@ input[type="radio"]{
     }
     .order-status span{
         font-size: 18px;
+    }
+    .mega-menu{
+        left: 400% !important;
+        margin-left: 10%;
+        width: 250px !important;
+        top: 80% !important; /* Spacing from top */
+        padding: 10px !important;
+        padding-left: 5px !important;
+    }
+    .mega-menu::before{
+        left:60% !important;
     }
 }
 @media screen and (max-width:992px) {
@@ -1091,5 +1432,9 @@ input[type="radio"]{
     }
     .royal-mail{
         padding:20px 20px !important;
+    }
+    .viagra-prod-img{
+        width: 60% !important;
+        margin: 0px auto !important;
     }
 }
