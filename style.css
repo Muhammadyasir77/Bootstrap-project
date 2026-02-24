@@ -14,10 +14,11 @@ button:hover, .btn:hover{
     border:1px solid #687EFF;
     color: white !important;
 }
+
 .navbar-toggler:hover{
     background-color: #dce0f9 !important;
-    box-shadow: none;
-    outline:none;
+    box-shadow: none !important;
+    outline:none !important;
     border: 1px solid lightgray;
 }
 body{
@@ -58,6 +59,21 @@ body input:focus{
     height: 15px;
     width: 12px;
 }
+.cart-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.cart-icon{
+    width:35px;
+    height: 36px;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
 .cart>span{
     width:44px;
 }
@@ -90,11 +106,84 @@ nav{
     size:16px;
     font-family: poppins;
 }
+
+/* Mega menu */
+.mega-menu a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #233D55;
+    opacity: 0.8;
+}
+nav .navbar-nav>.dropdown{
+    width: auto;
+}
+.mega-menu h4{
+    font-size: 22px;
+    font-weight: 600;
+    color: #12395D;
+}
+.mega-menu h6{
+    font-size: 17px;
+    font-weight: 600;
+    color: #12395D;
+}
+.mega-menu{
+    width:900px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    top: 100% !important;
+    border-radius: 20px !important;
+    padding: 30px !important;
+    position: absolute !important;
+    background-color: #ffffff;
+    opacity: 1  !important;
+    border: none;
+}
+.mega-menu::before {                      
+    content: "";
+    position: absolute;
+    top: -12px;
+    left: 86%;
+    opacity: 0.5 !important;
+    transform: translateX(-50%);
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid #fff;    
+}
+.nav-item .dropdown-toggle::after{
+    display: none !important;
+}
+.men-health-menu{
+    background-color: #C3E6F2;
+}
+.men-health-menu p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #233D55;
+    opacity: 0.8;
+}
+.men-health-menu a{
+    color:#687EFF;
+    font-weight: 600;
+    font-size: 16px;
+    opacity: 1;
+}
+#menu-accordion span{
+    font-size: 18px;
+    color: #233D55;
+    font-weight: 500;
+}
+#menu-accordion li{
+    padding:2px 0px;
+}
+
+/* Hero section */
 .hero-section ul>li{
     list-style-type: none;
     margin-left: -30px;
     margin-top: 19px;
-    font-size: 1rem;
+    font-size: 15px;
     font-family: poppins;
     font-weight: 600;
     color: #12395D;
@@ -177,11 +266,34 @@ nav{
 }
 .treatments-category{
     margin-top: 34px;
+    overflow-x: auto;
+    scrollbar-width: none;
 }
-.treatments-category .btn{
+.treatments-category::-webkit-scrollbar {
+    display: none;
+}
+
+.treatments-category .nav-link{
     color: #12395D;
     font-weight: 600;
     font-size: 12px;
+}
+
+.tabs-slider{
+    gap:10px;
+}
+.tabs-slider .nav-link {
+  white-space: nowrap;
+  border-radius: 8px;
+  padding: 10px 18px;
+}
+.tabs-slider .nav-link:hover {
+  transition: 1s ease;
+  background-color: #12395D;
+  color: white !important;
+}
+.nav-pills .nav-link.active {
+  background-color: #5c6df2;
 }
 .treatments h5{
     font-size: 18px;
@@ -195,7 +307,7 @@ nav{
     opacity: 0.8;
 }
 .treatments{
-    padding: 18px 24px !important;
+    padding: 18px 15px 18px 24px !important;
 }
 .all-treat{
     background-color: #687EFF;
@@ -254,7 +366,11 @@ input:focus{
 .cards-section .card span{
   position: relative;
   bottom: 20px;
-  width:37.14px;
+  width:37px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #687EFF;
 }
 
@@ -361,6 +477,11 @@ input:focus{
     color: #687EFF;
     border-radius: 50%;
     padding: 5px;
+}
+.security-check{
+    border-radius: 50% !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
 }
 .security h3{
     font-family: Poppins;
@@ -652,6 +773,21 @@ input:focus{
     background-color: #687EFF;
     width:160px;
 }
+.first-status, .second-status, .third-status {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.order-status span {
+    width:45px !important;
+    height: 45px !important;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .delivery-section .container{
     z-index: 1;
 }
@@ -937,66 +1073,7 @@ input[type="radio"]{
     font-size: 30px;
 }
 
-.mega-menu a{
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 400;
-    color: #233D55;
-    opacity: 0.8;
-}
-nav .navbar-nav>.dropdown{
-    width: auto;
-}
-.mega-menu h4{
-    font-size: 22px;
-    font-weight: 600;
-    color: #12395D;
-}
-.mega-menu h6{
-    font-size: 17px;
-    font-weight: 600;
-    color: #12395D;
-}
-.mega-menu{
-    width:900px !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    top: 115% !important; /* Spacing from top */
-    border-radius: 20px !important;
-    padding: 30px;
-    position: absolute;
-    background-color: #ffffff;
-    opacity: 1;
-    border: none;
-}
-.mega-menu::before {                          /* creating vector or upper arrow */
-    content: "";
-    position: absolute;
-    top: -12px;
-    left: 85%;
-    transform: translateX(-50%);
-    border-left: 12px solid transparent;
-    border-right: 12px solid transparent;
-    border-bottom: 12px solid #fff;      /* Matches background color */
-}
-.nav-item .dropdown-toggle::after{
-    display: none !important;
-}
-.men-health-menu{
-    background-color: #C3E6F2;
-}
-.men-health-menu p{
-    font-size: 14px;
-    font-weight: 400;
-    color: #233D55;
-    opacity: 0.8;
-}
-.men-health-menu a{
-    color:#687EFF;
-    font-weight: 600;
-    font-size: 16px;
-    opacity: 1;
-}
+
 /* product details page */
 .selection-group label{
     font-size: 14px;
@@ -1109,6 +1186,10 @@ nav .navbar-nav>.dropdown{
     color: white;
     padding:12px 28px !important;
 }
+.trust-icon{
+    padding:4px 7px;
+    border-radius: 50%;
+}
 .consult-points p{
     font-size: 15px;
     font-weight: 400;
@@ -1120,260 +1201,7 @@ nav .navbar-nav>.dropdown{
 }
 
 
-@media screen and (min-width:992px) {
-    .dropdown:hover >.mega-menu {
-        display: block;
-    }
-}
 
-@media screen and (max-width:540px) {
-    .head-search>input::placeholder{
-        font-size: 12px;
-    }
-    .hero-second{
-        display: flex;
-        align-items: start;
-        justify-content: start;
-    }
-    .senior-img{
-        margin: 0px !important;
-    }
-    .senior-img>img{
-        margin: 0px !important;
-        width:329.8px !important;
-        height: 209.2px !important;
-    }
-    .group-img img:nth-child(1) {
-        width: 200.8px !important;
-        height: 160.47px !important;
-    }
-    
-    .group-img img:nth-child(2) {
-        width: 190.3px !important;
-        height: 120.1px !important;
-     }
-    .hero-first>h1{
-        font-size: 30px !important;
-    }
-    .hero-second p{
-        width: 90%;
-        margin:0px 35px;
-    }
-    .hero-first{
-        margin-top: 30px !important;
-    }
-    .medication h3{
-        font-size: 28px !important;
-        line-height: 40px;
-    }
-    .medication p{
-        font-size: 16px;
-        line-height: 28px;
-    }
-    .medication button{
-        font-size: 14px;
-        padding:8px 15px !important;
-    }
-    .team p{
-        width: 100% !important;
-        font-size: 16px;
-    }
-    .team h3{
-        font-size: 28px;
-    }
-    .companies-section h2{
-        font-size: 28px;
-        line-height: normal;
-    }
-    .companies-section p{
-        font-size: 15px;
-        line-height: 20px;
-    }
-    .Reorder-para{
-        width:95% !important;
-    }
-    .Reorder-para>button a{
-        font-size: 10px !important;
-    }
-    .Reorder-para>button{
-        padding:0px !important;
-    }
-    .terms-condition{
-        padding: 0px !important;
-    }
-    aside.consultation-side{
-        width:75% !important;
-    }
-    .cart-details{
-        width: 90% !important;
-    }
-    .card h5{
-        font-size: 16px;
-    }
-    .card h6{
-        font-size: 12px;
-    }
-    .card p{
-        font-size: 12.5px;
-    }
-    .card .delivery-price{
-        font-size: 13px;
-    }
-    .card button{
-        padding:3px 6px;
-    }
-    .card button>a{
-        font-size: 12px;
-    }
-    .delivery-head h4{
-        font-size: 18px;
-    }
-    .delivery-head p{
-        font-size: 14px;
-    }
-    .internation-delivery>h4{
-        font-size: 22px;
-       
-    }
-    .royal-mail-international>label h5{
-        font-size: 15px;
-        
-    }
-    .royal-mail-international>label h6{
-        font-size: 12px;
-        
-    }
-    .royal-mail-international>label p{
-        font-size: 12px;
-    }
-    .delivery-head h4 ,.form-head>h4{
-        font-size: 20px;
-    }
-    .delivery-head p, .form-head>p{
-        font-size: 15px;
-    }
-    .form-label{
-        font-size: 14px;
-    }
-    .delivery-form input::placeholder{
-        font-size: 13px;
-    }
-    .cart-details button{
-        font-size: 14px;
-        padding-top: 12px;
-        padding: 5px 7px;
-    }
-    .order-status p{
-        font-size: 11px !important;
-    }
-    .order-status span{
-        font-size: 14px !important;
-    }
-    .delivery-details-section h4{
-        font-size: 22px;
-    }
-    .delivery-details-section p{
-        font-size: 15px;
-    }
-    .GP-details h4{
-        font-size: 20px;
-    }
-    .GP-details p{
-        font-size: 16px;
-    }
-    .GP-details label{
-        font-size: 14px;
-    }
-    .GP-details>.row a{
-        font-size: 16px;
-    }
-    .GP-details>.row span{
-        font-size: 15px;
-    }
-    .GP-details .input-group>button{
-        padding:4px 7px !important;
-        font-size: 12px;
-    }
-    .payment-options button{
-        font-size: 15px;
-        font-weight: 600;
-        padding: 12px 10px;
-        width: 200px;
-    }
-    .modal-footer>button{
-        font-size: 5px !important;
-        padding:5px;
-    }
-    .price-checkout>.btn{
-    font-size: 14px;
-    padding: 10px 30px;
-    }
-    .other-options .price-checkout p{
-        font-size: 20px;
-    }
-    .other-options .price-checkout>.btn{
-        font-size: 14px;
-        padding: 6px 15px;
-    }
-    .All-condition .input-group{
-        width:85% !important;
-    }
-    
-}
-@media screen and (max-width:770px) {
-    .hero-first h1{
-        font-size: 39px;
-    }
-    .team p{
-        width: 80% !important;
-    }
-    .copyright>p{
-    font-size: 13px !important;
-    font-weight: 400;
-    }
-    .head-paragraph .top-heading{
-        font-size: 22px;
-    }
-    .Reorder-para>button{
-        padding:4px 8px !important;
-    }
-    .Reorder-para>button a{
-        font-size: 12px;
-    }
-    .Reorder-para{
-        width:90% !important;
-    }
-    .item-details image{
-        justify-content: center !important;
-        align-items: center !important;
-    } 
-    .item-details .dropdown,.dropdown-menu{
-        width:170px;
-    }
-    .payment-btn button{
-        font-size: 13px;
-        padding: 8px 20px;
-        font-weight: 500;
-        width: 60%;
-    }
-    .order-status p{
-        font-size: 14px;
-    }
-    .order-status span{
-        font-size: 18px;
-    }
-    .mega-menu{
-        left: 400% !important;
-        margin-left: 10%;
-        width: 250px !important;
-        top: 80% !important; /* Spacing from top */
-        padding: 10px !important;
-        padding-left: 5px !important;
-    }
-    .mega-menu::before{
-        left:60% !important;
-    }
-}
 @media screen and (max-width:992px) {
     .head-search{
         margin-top: 15px;
@@ -1437,4 +1265,346 @@ nav .navbar-nav>.dropdown{
         width: 60% !important;
         margin: 0px auto !important;
     }
+}
+
+@media screen and (max-width:770px) {
+    .hero-first h1{
+        font-size: 39px;
+    }
+    .team p{
+        width: 80% !important;
+    }
+    .copyright>p{
+    font-size: 13px !important;
+    font-weight: 400;
+}
+    .head-paragraph .top-heading{
+        font-size: 22px;
+    }
+    .Reorder-para>button{
+        padding:4px 8px !important;
+    }
+    .Reorder-para>button a{
+        font-size: 12px;
+    }
+    .Reorder-para{
+        width:90% !important;
+    }
+    .item-details image{
+        justify-content: center !important;
+        align-items: center !important;
+    } 
+    .item-details .dropdown,.dropdown-menu{
+        width:170px;
+    }
+    .payment-btn button{
+        font-size: 13px;
+        padding: 8px 20px;
+        font-weight: 500;
+        width: 60%;
+    }
+    .order-status p{
+        font-size: 14px;
+    }
+    .order-status span{
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (min-width:992px) {
+    .dropdown:hover >.mega-menu {
+        display: block;
+    }
+}
+
+@media (max-width: 991px) {
+    .mega-menu {
+        width: 80% !important;
+        margin: 0 !important;
+        padding: 15px !important;
+    } 
+    .mega-menu.show {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .mega-menu::before {
+        left:50% !important;
+    }
+    .mega-menu {
+        width: 50% !important;
+        margin: 0 !important;      
+        padding: 15px !important;
+    } 
+}
+
+@media screen and (max-width:540px) {
+    .mega-menu {
+        width: 64% !important;
+        margin: 0 !important;      
+        padding: 13px !important;
+    } 
+    .accordion h2>span{
+        font-size: 16px !important;
+    }
+    .accordion .accordion-body li a{
+        font-size: 15px !important;
+    }
+    .head-search>input::placeholder {
+        font-size: 12px;
+    }
+
+    .hero-second {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+    }
+
+    .senior-img {
+        margin: 0px !important;
+    }
+
+    .senior-img>img {
+        margin: 0px !important;
+        width: 329.8px !important;
+        height: 209.2px !important;
+    }
+
+    .group-img img:nth-child(1) {
+        width: 200.8px !important;
+        height: 160.47px !important;
+    }
+
+    .group-img img:nth-child(2) {
+        width: 190.3px !important;
+        height: 120.1px !important;
+    }
+
+    .hero-first>h1 {
+        font-size: 30px !important;
+    }
+
+    .hero-second p {
+        width: 90%;
+        margin: 0px 35px;
+    }
+
+    .hero-first {
+        margin-top: 30px !important;
+    }
+
+    .medication h3 {
+        font-size: 28px !important;
+        line-height: 40px;
+    }
+
+    .medication p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .medication button {
+        font-size: 14px;
+        padding: 8px 15px !important;
+    }
+
+    .team p {
+        width: 100% !important;
+        font-size: 16px;
+    }
+
+    .team h3 {
+        font-size: 28px;
+    }
+
+    .companies-section h2 {
+        font-size: 28px;
+        line-height: normal;
+    }
+
+    .companies-section p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .Reorder-para {
+        width: 95% !important;
+    }
+
+    .Reorder-para>button a {
+        font-size: 10px !important;
+    }
+
+    .Reorder-para>button {
+        padding: 0px !important;
+    }
+
+    .terms-condition {
+        padding: 0px !important;
+    }
+
+    aside.consultation-side {
+        width: 75% !important;
+    }
+
+    .cart-details {
+        width: 90% !important;
+    }
+    .cart-icon{
+        width:30px;
+        height: 31px;
+    }
+
+    .card h5 {
+        font-size: 16px;
+    }
+
+    .card h6 {
+        font-size: 12px;
+    }
+
+    .card p {
+        font-size: 12.5px;
+    }
+
+    .card .delivery-price {
+        font-size: 13px;
+    }
+
+    .card button {
+        padding: 3px 6px;
+    }
+
+    .card button>a {
+        font-size: 12px;
+    }
+
+    .delivery-head h4 {
+        font-size: 18px;
+    }
+
+    .delivery-head p {
+        font-size: 14px;
+    }
+
+    .internation-delivery>h4 {
+        font-size: 22px;
+
+    }
+
+    .royal-mail-international>label h5 {
+        font-size: 15px;
+
+    }
+
+    .royal-mail-international>label h6 {
+        font-size: 12px;
+
+    }
+
+    .royal-mail-international>label p {
+        font-size: 12px;
+    }
+
+    .delivery-head h4,
+    .form-head>h4 {
+        font-size: 20px;
+    }
+
+    .delivery-head p,
+    .form-head>p {
+        font-size: 15px;
+    }
+
+    .form-label {
+        font-size: 14px;
+    }
+
+    .delivery-form input::placeholder {
+        font-size: 13px;
+    }
+
+    .cart-details button {
+        font-size: 14px;
+        padding-top: 12px;
+        padding: 5px 7px;
+    }
+
+    .order-status p {
+        font-size: 11px !important;
+    }
+
+    .order-status span {
+        font-size: 14px !important;
+        width:35px !important;
+        height: 35px !important;
+    
+    }
+    
+    .delivery-details-section h4 {
+        font-size: 22px;
+    }
+
+    .delivery-details-section p {
+        font-size: 15px;
+    }
+
+    .GP-details h4 {
+        font-size: 20px;
+    }
+
+    .GP-details p {
+        font-size: 16px;
+    }
+
+    .GP-details label {
+        font-size: 14px;
+    }
+
+    .GP-details>.row a {
+        font-size: 16px;
+    }
+
+    .GP-details>.row span {
+        font-size: 15px;
+    }
+
+    .GP-details .input-group>button {
+        padding: 4px 7px !important;
+        font-size: 12px;
+    }
+
+    .payment-options button {
+        font-size: 15px;
+        font-weight: 600;
+        padding: 12px 10px;
+        width: 200px;
+    }
+
+    .modal-footer>button {
+        font-size: 5px !important;
+        padding: 5px;
+    }
+
+    .price-checkout>.btn {
+        font-size: 14px;
+        padding: 10px 30px;
+    }
+
+    .other-options .price-checkout p {
+        font-size: 20px;
+    }
+
+    .other-options .price-checkout>.btn {
+        font-size: 14px;
+        padding: 6px 15px;
+    }
+
+    .All-condition .input-group {
+        width: 85% !important;
+    }
+    
+
 }
