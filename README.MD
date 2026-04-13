@@ -1,11 +1,32 @@
-# DR.ONLINE PHARMACY Bootstrap Project
+# Bootstrap Website Project
+A responsive multi-page website built using Bootstrap. This project demonstrates modern UI design and layout using Bootstrap components and grid system.
 
-This is a simple front end project "Dr.online Pharmacy" built using bootstrap 
-to practice on layout design and responsiveness
+## 🚀 Features
+- Fully responsive design
+- Multi-page website structure
+- Clean and user friendly interface
+- Built using Bootstrap components and grid system
 
-<br>
+## Technologies Used
+- HTML
+- CSS
+- Bootstrap
 
-<a href="https://dronline-pharmacy.netlify.app/">live Demo</a>
+## Pages Included
+- Home Page
+- QuestionForm Page
+- Registration Page
+- Treatment page
+- ProductDetails page
+- Cart page
+- Conditions page
+- Delivery page
+- AcidConsultation page
 
-<br>
-Author : Muhammad Yasir 
+## Live Demo
+https://dronline-pharmacy.netlify.app/
+
+## Author
+Muhammad Yasir  
+
+GitHub: https://github.com/Muhammadyasir77
